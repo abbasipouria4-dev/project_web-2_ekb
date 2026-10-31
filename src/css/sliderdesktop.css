@@ -1,0 +1,42 @@
+.slider{
+    max-width: 1200px;
+    height: 500px;
+    margin: 20px auto;
+    .swiper{
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+        overflow: hidden;
+        background-color: #1e293b;
+        .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #444;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    background-color: #1e293b;
+    padding: 20px;
+    box-sizing: border-box;
+    color: whitesmoke;
+    font-family: monospace;
+    margin-bottom: 0;
+}

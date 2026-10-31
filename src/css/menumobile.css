@@ -1,0 +1,52 @@
+.header{
+    display: none;
+}
+.menumobile{
+    width: 50%;
+    position: absolute;
+    z-index: 10;
+    left: -50%;
+    height: 100vh;
+    background-color: #3b3b3b;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+    transition: 300ms;
+    .item{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .itemlink{
+            text-decoration: none;
+            color: whitesmoke;
+            font-family: monospace;
+            font-size: 17px;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 200ms;
+            &:hover{
+                background-color: antiquewhite;
+                color: #3b3b3b;
+            }
+        }
+    }
+}
+.open{
+    width: 100px;
+    height: 30px;
+    background-color: #3b3b3b;
+    color: whitesmoke;
+    border-radius: 10px;
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    z-index: 5;
+}
+.togglemenu{
+    left: 0;
+}

@@ -1,0 +1,4 @@
+@import "../header.css" only screen and (min-width:1024px);
+@import "../sliderdesktop.css" only screen and (min-width:1024px);
+@import "../carddesktop.css" only screen and (min-width:1024px);
+@import "../slidertwodesktop.css" only screen and (min-width:1024px);
